@@ -18,6 +18,10 @@ body {
   color: #555252;
 }
 
+a {
+  display: block;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -64,7 +68,7 @@ h2::after {
 }
 
 .wrapper {
-  width: 1170px;
+  width: 1110px;
   margin: 0 auto;
 }
 
@@ -100,6 +104,7 @@ h2::after {
   margin: 0;
   padding: 0;
   float: left;
+  margin-top: 9px;
 }
 
 .menu li:nth-child(1) {
@@ -139,7 +144,7 @@ h2::after {
 }
 
 .featured {
-  margin-bottom: 105px;
+  padding-bottom: 105px;
 }
 .featured h2 {
   margin-bottom: 98px;
@@ -253,19 +258,20 @@ h3:after {
   margin-bottom: 14px;
 }
 
-button {
+.article-list-item a {
   font-size: 16px;
   text-transform: capitalize;
+  text-decoration: none;
   color: #fff;
   border: solid 1px #4ec6ab;
   background-color: #4ec6ab;
   border-radius: 3px;
-  padding: 18px 43px;
+  padding: 17px 38px;
   cursor: pointer;
+  width: 160px;
 }
 
-button:hover,
-button:focus {
+.article-list-item a:hover,
+.article-list-item a:focus {
   background-color: #4ecfab;
 }
-  
